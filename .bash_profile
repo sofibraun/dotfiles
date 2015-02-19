@@ -52,3 +52,8 @@ export PATH="$HOME/.rbenv/bin:$PATH"¬
 
 # Initialize rbenv
 eval "$(rbenv init -)"
+
+# Git completion
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
